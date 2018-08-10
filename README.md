@@ -14,12 +14,12 @@ User has to be in group 'service' to use the command
 
 There are several possibilities:
 
-!Manage-Service --comp <computer> --serv <service> --status <start | stop | restart>
+!Manage-Service --comp "computer" --serv "service" --status "start | stop | restart"
 
-!service --comp <computer> --serv <service> --status <start | stop | restart>
+!service --comp "computer" --serv "service" --status "start | stop | restart"
 
-!ms --comp <computer> --serv <service> --status <start | stop | restart>
+!ms --comp "computer" --serv "service" --status "start | stop | restart"
 
 You can also use the simple command:
 
-!ms <computer> <service> <start | stop | restart>
+!ms "computer" "service" "start | stop | restart"
